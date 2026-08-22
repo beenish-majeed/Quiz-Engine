@@ -79,7 +79,7 @@ using namespace std;
             cout<<"10. What is debugging?","A. Writing comments in a program","\nB. Finding and fixing errors in a program","\nC. Converting code into machine language","\nD. Designing a user interface";
             cout<< "Enter your Answer: ";
             cin>>answer;
-            if (answer == "A" || answer == "a") {
+            if (answer == "B" || answer == "b") {
                 count++;
             }
         }
@@ -206,6 +206,7 @@ using namespace std;
 
             cout<<"8. What is a database primarily used for?","\nA. Storing and managing organized data","\nB. Displaying graphics","\nC. Processing electricity","\nD. Editing videos";
             cout<< "Enter your Answer: ";
+            cin >> answer;
             if (answer == "A" || answer == "a") {
                 count++;
             }
