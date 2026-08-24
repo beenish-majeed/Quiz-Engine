@@ -1,5 +1,14 @@
-class Player:
+#ifndef PLAYER_H
+#define PLAYER_H
+
+#include<string>
+
+class Player {
 public:
-    string name;
+    std::string name;
     int score;
-    
+    std::string performace;
+    void get_name();
+};
+
+#endif

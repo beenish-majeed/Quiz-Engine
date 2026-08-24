@@ -1,8 +1,12 @@
-class Quiz: public Player, public Question
+#ifndef QUIZ_H
+#define QUIZ_H
+
+#include <string>
+
+class Quiz: public Player, public Question{
 public:
     int choice;
+ 
+};
 
-    int get_choice():{
-        if choice == 1:
-            return 
-    }
+#endif
