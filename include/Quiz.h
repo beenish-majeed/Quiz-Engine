@@ -1,12 +1,17 @@
 #ifndef QUIZ_H
 #define QUIZ_H
 
-#include <string>
+#include "Player.h"
+#include "Question.h"
 
 class Quiz: public Player, public Question{
+private:
+    Player player;
+    Question question;
 public:
-    int choice;
- 
+    int categoryChoice;
+    void startQuiz();
+    void selection();
 };
 
 #endif

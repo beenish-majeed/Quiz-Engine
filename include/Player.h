@@ -4,11 +4,11 @@
 #include<string>
 
 class Player {
-public:
+private:
     std::string name;
-    int score;
-    std::string performace;
-    void get_name();
+public:
+    void collectPlayerInfo();
+    std::string get_name();
 };
 
 #endif
