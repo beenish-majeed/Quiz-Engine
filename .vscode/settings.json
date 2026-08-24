@@ -1,6 +1,0 @@
-{
-    "code-runner.runInTerminal": true,
-    "code-runner.executorMap": {
-        "cpp": "cd $dir && g++ -g main.cpp Player.cpp Question.cpp Quiz.cpp -I ../include -o ../Quiz.exe && ../Quiz.exe"
-    }
-}
