@@ -5,7 +5,7 @@
 class Question{
 public:
     int choice;
-    static int count;
+    int count;
     std::string answer;
 
     void isValidAnswer();

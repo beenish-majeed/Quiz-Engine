@@ -4,11 +4,10 @@
 #include "Player.h"
 #include "Question.h"
 
-class Quiz: public Player, public Question{
-private:
+class Quiz{
+public:
     Player player;
     Question question;
-public:
     int categoryChoice;
     void startQuiz();
     void selection();
