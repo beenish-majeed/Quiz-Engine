@@ -8,25 +8,25 @@ using namespace std;
         cout<<"\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
         cout<<"\n           QUIZ RESULT           ";
         cout<<"\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n";
-        cout << "\nPlayer: " << get_name();
+        cout << "\nPlayer: " << player.get_name();
         cout<<"\nQuestions:  10\n";
-        cout<<"\nCorrect: "<< count;
-        cout<<"\nIncorrect: "<< 10 - count;
-        cout<<"\nScore: "<< count * 10 <<"%";
+        cout<<"\nCorrect: "<< question.count;
+        cout<<"\nIncorrect: "<< 10 - question.count;
+        cout<<"\nScore: "<< question.count * 10 <<"%";
 
-        if (count <= 3) {
+        if (question.count <= 3) {
             cout<<"\nPerformance: Bad\n";
         }
-        else if (count <= 5) {
+        else if (question.count <= 5) {
             cout<<"\nPerformance: Average\n";
         }
-        else if (count <= 7) {
+        else if (question.count <= 7) {
             cout<<"\nPerformance: Good\n";
         }
-        else if (count == 8) {
+        else if (question.count == 8) {
             cout<<"\nPerformance: Very Good\n";
         }
-        else if (count <=10){
+        else if (question.count <=10) {
             cout<<"\nPerformance: Excellent\n";
         }
         else {
@@ -40,8 +40,8 @@ using namespace std;
         cout<<"\n2. Exit:     ";
         cin>>categoryChoice;
         if (categoryChoice == 1){
-            collectPlayerInfo();
-            isValidAnswer();
+            player.collectPlayerInfo();
+            question.isValidAnswer();
             startQuiz();
             selection();   
         }

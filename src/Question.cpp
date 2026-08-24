@@ -2,7 +2,6 @@
 #include <iostream>
 using namespace std;
 
-    int Question::count = 0;
 
     void Question::isValidAnswer() {
         count = 0;
@@ -229,7 +228,7 @@ using namespace std;
                 }
             }
             
-            cout<<"\n2. Which is the largest ocean on Earth?"<<"\nA. Atlantic Ocean"<<"\nB. Indian Ocean"<<"\nC. Arctic Ocean"<<"\nD. Pacific Ocean";
+            cout<<"\n2. Which is the smallest country in the world by area?"<<"\nA. Monaco"<<"\nB. Vatican City"<<"\nC. San Marino"<<"\nD. Liechtenstein";
             cout<< "\nEnter your Answer: ";
             cin>>answer;
             if (answer != "A" && answer !="a" && 
@@ -239,7 +238,7 @@ using namespace std;
                 cout<<"\nInvalid answer. Please enter A, B, C, or D.\n";
             }
             else {
-                if (answer == "D" || answer == "d") {
+                if (answer == "B" || answer == "b") {
                     count++;
                     cout<<"Correct!\n";
                 }
@@ -324,26 +323,7 @@ using namespace std;
                 }
             }
 
-            cout<<"\n7. Which planet is known as the Red Planet?"<<"\nA. Venus"<<"\nB. Mars"<<"\nC. Jupiter"<<"\nD. Mercury";
-            cout<< "\nEnter your Answer: ";
-            cin>>answer;
-            if (answer != "A" && answer !="a" && 
-                answer != "B" && answer != "b" && 
-                answer != "C" && answer != "c" && 
-                answer != "D" && answer != "d"){
-                cout<<"\nInvalid answer. Please enter A, B, C, or D.\n";
-            }
-            else {
-                if (answer == "B" || answer == "b") {
-                    count++;
-                    cout<<"Correct!\n";
-                }
-                else {
-                    cout<<"InCorrect!\n";
-                }
-            }
-
-            cout<<"\n8. What is the largest continent by land area?"<<"\nA. Africa"<<"\nB. Europe"<<"\nC. Asia"<<"\nD. North America";
+            cout<<"\n7. Which part of the human body has no blood vessels?"<<"\nA. Brain"<<"\nB. Bone"<<"\nC. Cornea"<<"\nD. Muscle";
             cout<< "\nEnter your Answer: ";
             cin>>answer;
             if (answer != "A" && answer !="a" && 
@@ -354,6 +334,25 @@ using namespace std;
             }
             else {
                 if (answer == "C" || answer == "c") {
+                    count++;
+                    cout<<"Correct!\n";
+                }
+                else {
+                    cout<<"InCorrect!\n";
+                }
+            }
+
+            cout<<"\n8. Which animal has three hearts?"<<"\nA. Shark"<<"\nB. Octopus"<<"\nC. Dolphin"<<"\nD. Crocodile";
+            cout<< "\nEnter your Answer: ";
+            cin>>answer;
+            if (answer != "A" && answer !="a" && 
+                answer != "B" && answer != "b" && 
+                answer != "C" && answer != "c" && 
+                answer != "D" && answer != "d"){
+                cout<<"\nInvalid answer. Please enter A, B, C, or D.\n";
+            }
+            else {
+                if (answer == "B" || answer == "b") {
                     count++;
                     cout<<"Correct!\n";
                 }
@@ -458,7 +457,7 @@ using namespace std;
                 }
             }
 
-            cout<<"\n4. Which of the following is an operating system?"<<"\nA. Python"<<"\nB. Linux"<<"\nC. HTML"<<"\nD. MySQL";
+            cout<<"\n4. Who is often called the 'father of the computer'?"<<"\nA. Alan Turing"<<"\nB. Charles Babbage"<<"\nC. Bill Gates"<<"\nD. Steve Jobs";
             cout<< "\nEnter your Answer: ";
             cin>>answer;
             if (answer != "A" && answer !="a" && 

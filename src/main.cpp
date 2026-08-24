@@ -8,8 +8,8 @@ int main()
 {
     Quiz user1;
 
-    user1.collectPlayerInfo();
-    user1.isValidAnswer();
+    user1.player.collectPlayerInfo();
+    user1.question.isValidAnswer();
     user1.startQuiz();
     user1.selection();   
 }
